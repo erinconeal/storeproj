@@ -1,0 +1,92 @@
+/*GLOBAL STYLES*/
+.container {
+    width:100%;
+}
+.auto {
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-content-center {
+    justify-content: center;
+}
+.self-end {
+    align-self: flex-end;
+}
+.items-center {
+    align-items: center;
+}
+.site-100 {
+    width:100%;
+    height:100vh;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.white-text  {
+    color: #fff;
+}
+.primary-font {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+.light-weight {
+    font-weight: 400;
+}
+.medium-weight {
+    font-weight: 600;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+/*Element STYLES*/
+.site-header {
+    position: fixed;
+}
+.main-top-section {
+    background: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-06.jpg") no-repeat center;
+    background-size: cover;
+}
+.marketplace-brand {
+    width:90%;
+    padding: 30px 0;
+    border: 7px solid #fff;
+    font-size: 3rem;
+}
+.tagline {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+}
+.main-svg {
+    width:75px;
+    height:75px;
+    bottom:10vh;
+}
+.main-cta {
+    bottom:6vh;
+    letter-spacing: 4px;
+}
+.main-cta a {
+    color: #fff;
+    text-decoration: none;
+}
+.main-cta a:hover {
+    color: #f36;
+    box-shadow: 0 1px 0 0 #f36;
+    transition-duration: 300ms;
+}
+@media(min-width: 700px) {
+    .container {
+        width:90%;
+    }
+}
